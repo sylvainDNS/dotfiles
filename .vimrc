@@ -23,6 +23,7 @@ if dein#load_state('~/.cache/dein')
   call dein#add('scrooloose/nerdtree', {'on_cmd': ['NERDTreeToggle']}) " File tree tool
   call dein#add('ryanoasis/vim-devicons') " Display icon in Vim
   call dein#add('sheerun/vim-polyglot') " Collection of language packs for Vim
+  call dein#add('severin-lemaignan/vim-minimap', {'on_cmd': ['Minimap']}) " Minimap
   if !has('nvim')
     call dein#add('roxma/nvim-yarp')
     call dein#add('roxma/vim-hug-neovim-rpc')
