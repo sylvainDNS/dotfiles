@@ -23,22 +23,6 @@ ZSH_THEME=powerlevel10k/powerlevel10k
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(
-  dir_writable
-  dir
-  vcs
-  newline
-  status
-)
-POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(time)
-
-POWERLEVEL9K_PROMPT_ADD_NEWLINE=true
-POWERLEVEL9K_MODE=nerdfont-complete
-POWERLEVEL9K_ROOT_ICON=$'\uF09C'
-POWERLEVEL9K_TIME_ICON=$'\uF017'
-POWERLEVEL9K_TIME_BACKGROUND=magenta
-POWERLEVEL9K_STATUS_BACKGROUND=none
-
 # ----------- #
 #  Oh My Zsh  #
 # ----------- #
