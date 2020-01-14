@@ -1,0 +1,16 @@
+[core]
+	excludesfile = /home/sylvain/.gitignore
+	commentchar = `
+[alias]
+	pushf = push --force-with-lease
+    stash = stash --include-untracked
+    fixup = !sh -c 'REV=$(git rev-parse $1) && git commit --fixup $@ && GIT_SEQUENCE_EDITOR=true git rebase -i --autosquash $REV^' -
+[gpg]
+	program = gpg2
+[commit]
+	gpgsign = true
+[filter "lfs"]
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
