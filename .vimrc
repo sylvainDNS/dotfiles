@@ -7,6 +7,9 @@ set encoding=UTF-8
 " Relative line number with absolute on current
 set number relativenumber
 
+" Disable visual mode on mouse select
+set mouse-=a
+
 " Indent with space instead of tab
 set expandtab
 " Add the dein installation directory into runtimepath
@@ -75,3 +78,4 @@ highlight ConflictMarkerEnd guibg=#2f628e
 "  NERDTREE PLUGIN  "
 " ----------------- "
 map <C-n> :NERDTreeToggle<CR>
+
