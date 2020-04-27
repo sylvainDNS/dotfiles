@@ -56,6 +56,7 @@ source $ZSH/oh-my-zsh.sh
 alias vz="vim ~/.zshrc"
 alias vv="vim ~/.vimrc"
 alias vh="vim ~/.hyper.js"
+alias vt="vim ~/.tmux.conf"
 
 # Install w/ pacman
 alias pmi="sudo pacman -S "
