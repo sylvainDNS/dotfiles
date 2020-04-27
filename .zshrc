@@ -9,6 +9,9 @@ else
   export TERM='xterm-color'
 fi
 
+## Hyper.js start issue
+PROMPT_EOL_MARK=""
+
 source /usr/share/nvm/init-nvm.sh
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
@@ -52,6 +55,7 @@ source $ZSH/oh-my-zsh.sh
 # --------- #
 alias vz="vim ~/.zshrc"
 alias vv="vim ~/.vimrc"
+alias vh="vim ~/.hyper.js"
 
 # Install w/ pacman
 alias pmi="sudo pacman -S "
