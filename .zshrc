@@ -66,8 +66,10 @@ alias pmr="sudo pacman -Rs "
 # Install w/ yay
 alias yyi="yay -S "
 # Update w/ yay
-alias yyu="yay -Syu"
+alias yyu="yay -Syu --devel --timeupdate"
 # Remove w/ yay
 alias yyr="yay -Rs "
+# Clean unneeded dependencies
+alias yyc="yay -Yc"
 
 alias dc="docker-compose"
