@@ -74,3 +74,7 @@ alias yyr="yay -Rs "
 alias yyc="yay -Yc"
 
 alias dc="docker-compose"
+
+# tmux
+alias tn="tmux new -s"
+alias ta="tmux attach -t"
