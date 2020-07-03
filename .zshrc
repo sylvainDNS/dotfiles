@@ -1,6 +1,7 @@
 export ARCHFLAGS="-arch x86_64"
 export PATH="$PATH:/etc/yarn/bin"
 export PATH="$PATH:`yarn global bin`"
+export PATH="$PATH:$HOME/.cargo/bin"
 
 export EDITOR=vim
 if [ -e /usr/share/terminfo/x/xterm-256color ]; then
