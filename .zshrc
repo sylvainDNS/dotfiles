@@ -35,6 +35,20 @@ zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}' 'r:|[._-]=* r:|=*' 'l:|=* r:
 # --------- #
 #  Aliases  #
 # --------- #
+alias zshreload="source ~/.zshrc"
+
+alias grep="grep --color=auto"
+
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+
+alias less="less -R"
+
+alias rm="rm -i"
+alias cp="cp -i"
+alias mv="mv -i"
+
 alias vz="vim ~/.zshrc"
 alias vv="vim ~/.vimrc"
 alias vh="vim ~/.hyper.js"
@@ -61,3 +75,5 @@ alias dc="docker-compose"
 # tmux
 alias tn="tmux new -s"
 alias ta="tmux attach -t"
+
+alias c="code ."
