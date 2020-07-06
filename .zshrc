@@ -19,11 +19,18 @@ export NVM_DIR="$HOME/.nvm"
 eval "$(starship init zsh)"
 export STARSHIP_CONFIG=~/.starship
 
-# ZSH plugins
+# ----- #
+#  ZSH  #
+# ----- #
+
+# Plugins
 source ~/.zsh/plugins/colored-man-pages.zsh
 source ~/.zsh/plugins/zsh-autosuggestions.zsh
 source ~/.zsh/plugins/oh-my-zsh/history.zsh
 source ~/.zsh/plugins/oh-my-zsh/key-bindings.zsh
+
+# Config
+zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}' 'r:|[._-]=* r:|=*' 'l:|=* r:|=*'
 
 # --------- #
 #  Aliases  #
