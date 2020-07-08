@@ -10,11 +10,6 @@ else
   export TERM='xterm-color'
 fi
 
-source /usr/share/nvm/init-nvm.sh
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
-
 # https://github.com/starship/starship
 eval "$(starship init zsh)"
 export STARSHIP_CONFIG=~/.starship
