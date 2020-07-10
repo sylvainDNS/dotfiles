@@ -19,10 +19,10 @@ export STARSHIP_CONFIG=~/.starship
 # ----- #
 
 # Plugins
-source ~/.zsh/plugins/colored-man-pages.zsh
-source ~/.zsh/plugins/zsh-autosuggestions.zsh
-source ~/.zsh/plugins/oh-my-zsh/history.zsh
-source ~/.zsh/plugins/oh-my-zsh/key-bindings.zsh
+source ~/.zsh/colored-man-pages.zsh
+source ~/.zsh/zsh-autosuggestions.zsh
+source ~/.zsh/history.zsh
+source ~/.zsh/key-bindings.zsh
 
 # Completion
 # Case unsensitive
