@@ -24,8 +24,14 @@ source ~/.zsh/plugins/zsh-autosuggestions.zsh
 source ~/.zsh/plugins/oh-my-zsh/history.zsh
 source ~/.zsh/plugins/oh-my-zsh/key-bindings.zsh
 
-# Config
+# Completion
+# Case unsensitive
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}' 'r:|[._-]=* r:|=*' 'l:|=* r:|=*'
+
+# Git
+zstyle ':completion:*:*:git:*' script ~/.git-completion.bash
+fpath=(~/.zsh $fpath)
+autoload -Uz compinit && compinit
 
 # --------- #
 #  Aliases  #
