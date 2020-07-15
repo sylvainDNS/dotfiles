@@ -23,6 +23,7 @@ source ~/.zsh/colored-man-pages.zsh
 source ~/.zsh/zsh-autosuggestions.zsh
 source ~/.zsh/history.zsh
 source ~/.zsh/key-bindings.zsh
+source ~/.zsh/yarn-autocompletions.zsh
 
 # Completion
 # Case unsensitive
