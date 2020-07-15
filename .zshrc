@@ -18,13 +18,6 @@ export STARSHIP_CONFIG=~/.starship
 #  ZSH  #
 # ----- #
 
-# Plugins
-source ~/.zsh/colored-man-pages.zsh
-source ~/.zsh/zsh-autosuggestions.zsh
-source ~/.zsh/history.zsh
-source ~/.zsh/key-bindings.zsh
-source ~/.zsh/yarn-autocompletions.zsh
-
 # Completion
 # Case unsensitive
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}' 'r:|[._-]=* r:|=*' 'l:|=* r:|=*'
@@ -33,6 +26,13 @@ zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}' 'r:|[._-]=* r:|=*' 'l:|=* r:
 zstyle ':completion:*:*:git:*' script ~/.git-completion.bash
 fpath=(~/.zsh $fpath)
 autoload -Uz compinit && compinit
+
+# Plugins
+source ~/.zsh/colored-man-pages.zsh
+source ~/.zsh/zsh-autosuggestions.zsh
+source ~/.zsh/history.zsh
+source ~/.zsh/key-bindings.zsh
+source ~/.zsh/yarn-autocompletions.zsh
 
 # --------- #
 #  Aliases  #
