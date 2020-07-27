@@ -56,7 +56,7 @@ alias cp="cp -i"
 alias mv="mv -i"
 
 alias vz="vim ~/.zshrc"
-alias vv="vim ~/.vimrc"
+alias vv="vim ~/.config/nvim/init.vim"
 alias vh="vim ~/.hyper.js"
 alias vs="vim ~/.starship"
 alias vt="vim ~/.tmux.conf"
