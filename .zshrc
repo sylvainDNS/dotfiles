@@ -43,6 +43,8 @@ alias zshreload="source ~/.zshrc"
 
 alias grep="grep --color=auto"
 
+alias ls="lsd"
+
 alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
