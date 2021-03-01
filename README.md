@@ -15,3 +15,10 @@ Some dotfiles for my workstation.
   - Prompt (for style): [Starship](https://starship.rs/)
   - Multiplexer: [tmux](https://github.com/tmux/tmux/wiki)
   - Editor: [Vim](https://www.vim.org/)
+
+- Fonts
+  - System: [Cantarell](https://gitlab.gnome.org/GNOME/cantarell-fonts/)
+  - Monospace: [FiraCode Nerd Font Mono](https://aur.archlinux.org/packages/otf-fira-code-git/)
+  - Emoji: [Noto](https://www.google.com/get/noto/help/emoji/)
+  - Symbole: [Symbola](https://aur.archlinux.org/packages/otf-symbola/)
+  - Asian: [KoPub](https://aur.archlinux.org/packages/otf-kopubworld/)
