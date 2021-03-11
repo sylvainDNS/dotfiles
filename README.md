@@ -19,6 +19,4 @@ Some dotfiles for my workstation.
 - Fonts
   - System: [Cantarell](https://gitlab.gnome.org/GNOME/cantarell-fonts/)
   - Monospace: [FiraCode Nerd Font Mono](https://aur.archlinux.org/packages/otf-fira-code-git/)
-  - Emoji: [Noto](https://www.google.com/get/noto/help/emoji/)
-  - Symbole: [Symbola](https://aur.archlinux.org/packages/otf-symbola/)
-  - Asian: [KoPub](https://aur.archlinux.org/packages/otf-kopubworld/)
+  - Emoji, Symbole & Non-latin: [Noto fonts](https://www.google.com/get/noto)
