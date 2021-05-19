@@ -7,14 +7,14 @@ charging_symbol = ""
 discharging_symbol = ""
 
 [character]
-symbol = "➜"
+success_symbol = ""
 error_symbol = "✗"
-use_symbol_for_status = true
+vicmd_symbol = ""
 
 [conda]
 symbol = " "
 
-[docker]
+[docker_context]
 symbol = " "
 
 [elixir]
@@ -33,9 +33,6 @@ behind = "⇣${count}"
 
 [golang]
 symbol = " "
-
-[haskell]
-symbol = " "
 
 [hg_branch]
 symbol = " "
@@ -57,6 +54,7 @@ symbol = " "
 
 [nodejs]
 symbol = " "
+detect_extensions = ["js", "mjs", "cjs", "ts", "jsx", "tsx"]
 
 [package]
 symbol = " "
