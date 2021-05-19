@@ -1,5 +1,13 @@
 #!/bin/sh
 
+echo "Backup existing config"
+mv ~/.alacritty.yml ~/.alacritty.old.yml
+mv ~/.gitconfig ~/.gitconfig.old
+mv ~/.gitignore ~/.gitignore.old
+mv ~/.starship ~/.starship.old
+mv ~/.tmux.conf ~/.tmux.conf.old
+mv ~/.zshrc ~/.zshrc.old
+
 echo "Create symbolic links" 
 ln -rs  ~/Workspace/dotfiles/.alacritty.yml ~/
 ln -rs ~/Workspace/dotfiles/.gitconfig ~/
