@@ -5,7 +5,6 @@ mv ~/.alacritty.yml ~/.alacritty.old.yml
 mv ~/.gitconfig ~/.gitconfig.old
 mv ~/.gitignore ~/.gitignore.old
 mv ~/.starship ~/.starship.old
-mv ~/.tmux.conf ~/.tmux.conf.old
 mv ~/.zshrc ~/.zshrc.old
 
 echo "Create symbolic links" 
@@ -13,7 +12,6 @@ ln -rs  ~/Workspace/dotfiles/.alacritty.yml ~/
 ln -rs ~/Workspace/dotfiles/.gitconfig ~/
 ln -rs ~/Workspace/dotfiles/.gitignore ~/
 ln -rs ~/Workspace/dotfiles/.starship ~/
-ln -rs ~/Workspace/dotfiles/.tmux.conf ~/
 mkdir -p ~/.config/nvim
 ln -s ~/Workspace/dotfiles/.vimrc ~/.config/nvim/init.vim
 ln -rs ~/Workspace/dotfiles/.zshrc ~/
