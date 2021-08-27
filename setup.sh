@@ -1,23 +1,18 @@
 #!/bin/sh
 
-echo "Backup existing config"
-mv ~/.alacritty.yml ~/.alacritty.old.yml
-mv ~/.gitconfig ~/.gitconfig.old
-mv ~/.gitignore ~/.gitignore.old
-mv ~/.starship ~/.starship.old
-mv ~/.zshrc ~/.zshrc.old
-mv ~/.paru.conf ~/.paru.conf.old
+pathPrefix=`pwd`
+SIMPLE_BACKUP_SUFFIX=.old
 
 echo "Create symbolic links" 
-ln -rs  ~/Workspace/dotfiles/.alacritty.yml ~/
-ln -rs ~/Workspace/dotfiles/.gitconfig ~/
-ln -rs ~/Workspace/dotfiles/.gitignore ~/
-ln -rs ~/Workspace/dotfiles/.starship ~/
+ln -brs  ${pathPrefix}/.alacritty.yml ~/
+ln -brs ${pathPrefix}/.gitconfig ~/
+ln -brs ${pathPrefix}/.gitignore ~/
+ln -brs ${pathPrefix}/.starship ~/
 mkdir -p ~/.config/nvim
-ln -s ~/Workspace/dotfiles/.vimrc ~/.config/nvim/init.vim
-ln -rs ~/Workspace/dotfiles/.zshrc ~/
-ln -rs ~/Workspace/dotfiles/.paru.conf ~/
-ln -rs ~/Workspace/dotfiles/screenshot.sh ~/.config/i3/
+ln -bs ${pathPrefix}/.vimrc ~/.config/nvim/init.vim
+ln -brs ${pathPrefix}/.zshrc ~/
+ln -brs ${pathPrefix}/.paru.conf ~/
+ln -brs ${pathPrefix}/screenshot.sh ~/.config/i3/
 
 echo "Install ZSH plugins"
 sh ./setup.zsh.sh
