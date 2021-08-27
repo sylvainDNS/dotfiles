@@ -17,6 +17,7 @@ mkdir -p ~/.config/nvim
 ln -s ~/Workspace/dotfiles/.vimrc ~/.config/nvim/init.vim
 ln -rs ~/Workspace/dotfiles/.zshrc ~/
 ln -rs ~/Workspace/dotfiles/.paru.conf ~/
+ln -rs ~/Workspace/dotfiles/screenshot.sh ~/.config/i3/
 
 echo "Install ZSH plugins"
 sh ./setup.zsh.sh
