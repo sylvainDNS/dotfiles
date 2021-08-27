@@ -1,8 +1,21 @@
 export ARCHFLAGS="-arch x86_64"
 
+# GPG signing key
+export GPG_TTY=$(tty)
+
+# AUR package manager
+export PARU_CONF=~/.paru.conf
+
 # https://github.com/starship/starship
 eval "$(starship init zsh)"
 export STARSHIP_CONFIG=~/.starship
+
+# volta.sh
+export VOLTA_HOME="$HOME/.volta"
+export PATH="$VOLTA_HOME/bin:$PATH"
+
+# Python
+export PATH="$HOME/.local/bin:$PATH"
 
 # ----- #
 #  ZSH  #
