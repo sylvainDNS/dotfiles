@@ -202,3 +202,9 @@ focus_follows_mouse no
 bindsym --release Shift+Print exec "~/.config/i3/screenshot.sh -s ~/Pictures/Screenshots/"
 # Take a screenshot of a whole window and copy it to a clipboard
 bindsym --release Print exec "~/.config/i3/screenshot.sh ~/Pictures/Screenshots/"
+
+# NetworkManager applet
+exec --no-startup-id nm-applet
+
+# Bluetooth apple
+exec --no-startup-id blueman-applet
