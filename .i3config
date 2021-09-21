@@ -208,3 +208,11 @@ exec --no-startup-id nm-applet
 
 # Bluetooth apple
 exec --no-startup-id blueman-applet
+
+### Theme
+
+# Wallpaper
+exec --no-startup-id feh --bg-fill /home/sylvain/Pictures/wallpaper.jpg
+
+# Lockscreen
+bindsym $mod+x exec "~/.config/i3/lock.sh"
