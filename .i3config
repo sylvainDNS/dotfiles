@@ -199,6 +199,6 @@ bindsym $mod+Control+Right move workspace to output right
 focus_follows_mouse no
 
 # Take a screenshot of a screen region and copy it to a clipboard
-bindsym --release Shift+Print exec "~/.config/i3/screenshot.sh -s ~/Images/Screenshots"
+bindsym --release Shift+Print exec "~/.config/i3/screenshot.sh -s ~/Pictures/Screenshots/"
 # Take a screenshot of a whole window and copy it to a clipboard
-bindsym --release Print exec "~/.config/i3/screenshot.sh ~/Images/Screenshots"
+bindsym --release Print exec "~/.config/i3/screenshot.sh ~/Pictures/Screenshots/"
