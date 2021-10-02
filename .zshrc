@@ -1,5 +1,7 @@
 export ARCHFLAGS="-arch x86_64"
 
+export EDITOR=vim
+
 # GPG signing key
 export GPG_TTY=$(tty)
 
@@ -59,7 +61,3 @@ alias vs="vim ~/.starship"
 alias vt="vim ~/.tmux.conf"
 
 alias dc="docker-compose"
-
-# tmux
-alias tn="tmux new -s"
-alias ta="tmux attach -t"
