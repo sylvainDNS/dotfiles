@@ -1,13 +1,13 @@
 #!/bin/sh
 
 echo "Install packages"
-sh ./setup.packages.sh
+sh ./setup/packages.sh
 
 echo "Install config files"
-sh ./setup.config.sh
+sh ./setup/config.sh
 
 echo "Install ZSH plugins"
-sh ./setup.zsh.sh
+sh ./setup/zsh.sh
 
 echo "Install VIM plugins"
-sh ./setup.vim.sh
+sh ./setup/vim.sh
