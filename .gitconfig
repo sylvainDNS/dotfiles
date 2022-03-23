@@ -3,8 +3,8 @@
 	commentchar = `
 [alias]
 	pushf = push --force-with-lease
-    stash = stash --include-untracked
-    fixup = !sh -c 'REV=$(git rev-parse $1) && git commit --fixup $@ && GIT_SEQUENCE_EDITOR=true git rebase -i --autosquash $REV^' -
+	stash = stash --include-untracked
+	fixup = !sh -c 'REV=$(git rev-parse $1) && git commit --fixup $@ && GIT_SEQUENCE_EDITOR=true git rebase -i --autosquash $REV^' -
 [gpg]
 	program = gpg2
 [commit]
@@ -15,4 +15,4 @@
 	required = true
 	clean = git-lfs clean -- %f
 [include]
-    path = ~/.gitconfig.local
+	path = ~/.gitconfig.local
