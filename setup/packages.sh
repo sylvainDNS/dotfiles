@@ -15,7 +15,8 @@ pacman -S --needed --noconfirm --noprogressbar \
   docker \
   docker-compose \
   gnome-keyring \
-  firefox-developer-edition
+  firefox-developer-edition \
+  flameshot
 
 systemctl enable docker
 systemctl start docker
@@ -36,4 +37,5 @@ paru -S --skipreview \
   noto-fonts \
   noto-fonts-cjk \
   noto-fonts-emoji \
-  noto-fonts-extra
+  noto-fonts-extra \
+  visual-studio-code-bin
